@@ -10,6 +10,7 @@ namespace MiWebAPI.Controllers
     [ApiController]
     public class EmpleadoController : ControllerBase
     {
+        //cometario de prueba
         private readonly EmpleadoData _empleadoData;
         public EmpleadoController(EmpleadoData empleadoData)
         {
